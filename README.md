@@ -46,7 +46,6 @@ print('{:>13}'.format(" * * * "))
 print('{:>11}'.format(" * "))
 ```
 ![Gambar1](Pk3/latihan3.2.png)
-![Gambar1](Pk3/latihan3.3.png)
 ## Praktikum 3 
 ![Gambar1](Pk3/Praktikum3.2.png)
 ### Hasil praktikum 3 yang telah saya lakukan yaitu :
