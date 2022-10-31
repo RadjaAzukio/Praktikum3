@@ -35,49 +35,18 @@
 ### Buatlah kode program menggunakan string formattting untuk menghasilkan output seperti gambar dibawah ini
 ![Gambar1](Pk3/latihan3.1.png)
 ```
-string = ""
-x = int(input("Masukkan angka :"))
-a = x
-while a >= 0:
-    b = a
-    while b > 0:
-        string = string + "   "
-        b = b - 1
-    l = 1
-    while l < (x - (a-1)):
-        string = string + " * "
-        l = l + 1
-    r = 1
-    while r < l -1:
-        string = string + " * "
-        r = r + 1
-    string = string + "\n\n"
-    a = a -1
-a = 1
-while a <= x:
-    b = a + 1
-    while b > 1:
-        string = string + "   "
-        b = b -1
-    l = 0
-    while l < (x - a):
-        string = string + " * "
-        l = l + 1
-    r = l
-    while r > 1:
-        string = string + " * "
-        r = r - 1
-    string = string + "\n\n"
-    a = a + 1
-print(string)
+print('{:>11}'.format(" * "))
+print('{:>13}'.format(" * * * "))
+print('{:>15}'.format(" * * * * * "))
+print('{:>17}'.format(" * * * * * * * "))
+print('{:>19}'.format(" * * * * * * * * * "))
+print('{:>17}'.format(" * * * * * * * "))
+print('{:>15}'.format(" * * * * * "))
+print('{:>13}'.format(" * * * "))
+print('{:>11}'.format(" * "))
 ```
-#### - Agar menampilkan output yang sama dengan latihan3.1 yaitu dengan menjalankan hasil dari statement yang telah dibuat dan seletah itu kita disuruh menginputkan *numeric* 5 
 ![Gambar1](Pk3/latihan3.2.png)
 ![Gambar1](Pk3/latihan3.3.png)
-#### - Anda dapat bebas menentukan angka yang angka yang ingin diinputkan ^^ 
-#### - Seperti ini contohnya
-![Gambar1](Pk3/latihan3.4.png)
-![Gambar1](Pk3/latihan3.5.png)
 ## Praktikum 3 
 ![Gambar1](Pk3/Praktikum3.2.png)
 ### Hasil praktikum 3 yang telah saya lakukan yaitu :
